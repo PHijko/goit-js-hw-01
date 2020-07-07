@@ -3,7 +3,7 @@ let input;
 let total = 0;
 do {
   input = prompt('Введите число: ');
-  if (isNaN(input) === true) {
+  if (isNaN(input)) {
     alert('Было введено не число, попробуйте еще раз');
     continue;
   }
@@ -24,9 +24,8 @@ console.log(`Общая сумма введеных чисел: ${total}`);
 
 //   input = Number(input);
 
-//   if (isNaN(input) === true) {
+//   if (isNaN(input)) {
 //     alert('Было введено не число, попробуйте еще раз');
-//     continue;
 //   } else {
 //     total += input;
 //   }
