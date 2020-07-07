@@ -1,3 +1,4 @@
+'use strict';
 let price;
 let country = prompt('Введите страну доставки:');
 if (country === null) {

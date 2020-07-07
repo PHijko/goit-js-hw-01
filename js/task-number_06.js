@@ -1,3 +1,4 @@
+'use strict';
 // Method 1
 let input;
 let total = 0;
